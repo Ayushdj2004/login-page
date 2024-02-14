@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(wp9196999.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: 450px;
+    color: bisque;
+    position: relative;
+    border-radius: 15px;
+    padding: 40px 30px 38px 30px;
+    border: 2px solid white;
+}
+
+
+h1{
+    font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+  }
+
+
+.input-box input{
+    width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid antiquewhite;
+  border-radius: 40px;
+  color: aliceblue;
+  padding-left: 30px;
+  font-size: 1rem;
+}
+
+.input-box input::placeholder{
+    color: bisque;
+}
+
+.input-box i{
+   position: absolute;
+   left: 8%;
+}
+
+.check-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    
+}
+
+.check-box label input{
+    cursor: pointer;
+}
+
+.check-box label input :hover{
+    color: rgb(209, 122, 16);
+    cursor: pointer;
+}
+
+.check-box a{
+    color: bisque;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.check-box a:hover{
+    text-decoration: underline;
+    color: rgb(209, 122, 16);
+}
+
+.login-button button{
+    width: 100%;
+    border-radius: 40px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.register{
+    font-size: 1.1rem;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.register a{
+    color: bisque;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register a:hover{
+    text-decoration: underline;
+    color: rgb(209, 122, 16);
+}
+
+@media (max-width : 680px) {
+    .wrapper{
+        width: 70%;
+    }
+    
+    body{
+        background-size: cover;
+    background-position: center;
+    }
+
+    .input-box i{
+        left: 12%;
+    }
+}
