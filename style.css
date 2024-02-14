@@ -139,6 +139,8 @@ h1{
     }
     .check-box{
         font-size: 0.9rem;
+       align-items: center;
+        text-align: center;
     }
     .register{
         font-size: 0.9rem;
